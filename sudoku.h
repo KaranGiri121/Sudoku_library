@@ -96,10 +96,10 @@ class sudoku
             }
         }
     }
-    void solve()
+    bool solve()
     {
         //This Function Solve Sudoku
-        __solve(arr,0,0);
+       return __solve(arr,0,0);
     }
     void getSudoku()
     {
